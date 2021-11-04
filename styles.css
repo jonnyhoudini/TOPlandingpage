@@ -1,0 +1,177 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Hero section */
+      /* Nav bar */
+
+nav {
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.header {
+  background-color: #1F2937;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.link {
+
+  font-size: 18px;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.hero-section {
+  display: flex;
+  padding: 80px;
+  margin-left: 140px;
+}
+
+img {
+  width: 400px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-weight: 900;
+  color: #F9FAF8;
+  font-size: 48px;
+  margin-bottom: 0
+}
+
+p {
+font-size: 18px;
+color: #E5E7EB;
+margin-top: 0;
+}
+
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 10%;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  width: 120px;
+}
+
+/* Random info section */
+
+.random-info {
+    color: #1F2937;
+    padding: 50px 20px 80px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #3882F6;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 5%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.card p {
+  margin-top: 5px;
+  color: #1F2937;
+}
+
+/* Quote section */
+
+.quote-section {
+  background-color: #E5E7EB;
+    padding: 50px 20px 80px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.quote {
+color: #1F2937;
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+}
+
+/* Call to action section */
+
+.call-to-action-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.blue-square {
+  width: 700px;
+  padding: 25px;
+  background-color: #3882F6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+
+}
+
+.cta-text1 {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cta-text2 {
+  color: white;
+  margin: 0;
+}
+
+.call-button {
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+}
+
+footer {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
